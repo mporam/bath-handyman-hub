@@ -62,13 +62,13 @@ const WhyChooseUs = () => {
               </p>
               <div className="space-y-4">
                 <a 
-                  href="tel:01225123456" 
+                  href="tel:07951634661" 
                   className="block text-center bg-primary-foreground text-primary font-semibold py-3 px-6 rounded-lg hover:bg-primary-foreground/90 transition-colors"
                 >
-                  Call: 01225 123 456
+                  Call: 07951 634 661
                 </a>
                 <a 
-                  href="mailto:info@bathhomeservice.co.uk" 
+                  href="mailto:bathhomeservices@gmail.com" 
                   className="block text-center border-2 border-primary-foreground text-primary-foreground font-semibold py-3 px-6 rounded-lg hover:bg-primary-foreground hover:text-primary transition-colors"
                 >
                   Email Us

@@ -9,9 +9,6 @@ import {
   DoorOpen,
   TreeDeciduous,
   Settings,
-  Bath,
-  Sofa,
-  Building2,
   Building,
   Thermometer
 } from "lucide-react";
@@ -70,24 +67,6 @@ const services = [
     title: "Flat Pack Assembly",
     description: "Save time and frustration with our professional flat pack assembly service. We'll build your furniture quickly and correctly.",
     examples: ["IKEA furniture", "Bedroom furniture", "Office desks", "Wardrobes and storage"],
-  },
-  {
-    icon: Bath,
-    title: "Bathroom Maintenance",
-    description: "Keep your bathroom in top condition with our maintenance services. From re-sealing to fixture fitting, we've got you covered.",
-    examples: ["Silicone re-sealing", "Toilet seat replacement", "Towel rail fitting", "Mirror hanging"],
-  },
-  {
-    icon: Sofa,
-    title: "Kitchen Jobs",
-    description: "Various kitchen repairs and improvements to keep your kitchen functional and looking great.",
-    examples: ["Cupboard repairs", "Handle replacement", "Worktop repairs", "Appliance installation"],
-  },
-  {
-    icon: Building2,
-    title: "Commercial Services",
-    description: "We also work with businesses, offices, and commercial properties. Reliable maintenance services tailored to your business needs.",
-    examples: ["Office maintenance", "Retail fitting", "Property management", "Scheduled visits"],
   },
 ];
 
