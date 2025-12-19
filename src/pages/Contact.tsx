@@ -74,10 +74,10 @@ const Contact = () => {
                     <div>
                       <h3 className="font-semibold text-foreground mb-1">Service Area</h3>
                       <p className="text-foreground text-lg font-medium">
-                        Bath & Surrounding Areas
+                        Bath, Bristol & Surrounding Areas
                       </p>
                       <p className="text-sm text-muted-foreground mt-1">
-                        Including Bradford-on-Avon, Corsham, Chippenham, Trowbridge
+                        Including Keynsham, Bradford-on-Avon, Corsham, Chippenham, Trowbridge
                       </p>
                     </div>
                   </div>
