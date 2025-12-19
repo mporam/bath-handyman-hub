@@ -1,6 +1,6 @@
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
-import { Phone, Mail, MapPin, Clock } from "lucide-react";
+import { Phone, Mail, MapPin } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const Contact = () => {
@@ -82,20 +82,6 @@ const Contact = () => {
                     </div>
                   </div>
 
-                  <div className="flex items-start gap-4">
-                    <div className="w-12 h-12 bg-accent rounded-xl flex items-center justify-center shrink-0">
-                      <Clock className="w-6 h-6 text-primary" />
-                    </div>
-                    <div>
-                      <h3 className="font-semibold text-foreground mb-1">Working Hours</h3>
-                      <p className="text-foreground text-lg font-medium">
-                        Mon - Fri: 8am - 6pm
-                      </p>
-                      <p className="text-sm text-muted-foreground mt-1">
-                        Saturday by appointment
-                      </p>
-                    </div>
-                  </div>
                 </div>
               </div>
 
