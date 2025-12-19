@@ -13,15 +13,15 @@ const CTABanner = () => {
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <Button asChild variant="default" size="xl">
-            <a href="tel:01225123456">
+            <a href="tel:07951634661">
               <Phone className="w-5 h-5" />
-              01225 123 456
+              07951 634 661
             </a>
           </Button>
           <Button asChild variant="outline" size="xl">
-            <a href="mailto:info@bathhomeservice.co.uk">
+            <a href="mailto:bathhomeservices@gmail.com">
               <Mail className="w-5 h-5" />
-              info@bathhomeservice.co.uk
+              bathhomeservices@gmail.com
             </a>
           </Button>
         </div>

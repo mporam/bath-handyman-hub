@@ -43,8 +43,8 @@ const Contact = () => {
                     </div>
                     <div>
                       <h3 className="font-semibold text-foreground mb-1">Phone</h3>
-                      <a href="tel:01225123456" className="text-primary hover:underline text-lg font-medium">
-                        01225 123 456
+                      <a href="tel:07951634661" className="text-primary hover:underline text-lg font-medium">
+                        07951 634 661
                       </a>
                       <p className="text-sm text-muted-foreground mt-1">
                         Call us for a quick chat about your project
@@ -58,8 +58,8 @@ const Contact = () => {
                     </div>
                     <div>
                       <h3 className="font-semibold text-foreground mb-1">Email</h3>
-                      <a href="mailto:info@bathhomeservice.co.uk" className="text-primary hover:underline text-lg font-medium">
-                        info@bathhomeservice.co.uk
+                      <a href="mailto:bathhomeservices@gmail.com" className="text-primary hover:underline text-lg font-medium">
+                        bathhomeservices@gmail.com
                       </a>
                       <p className="text-sm text-muted-foreground mt-1">
                         Send us details and we'll reply within 24 hours
@@ -112,13 +112,13 @@ const Contact = () => {
                   
                   <div className="space-y-4">
                     <Button asChild variant="heroOutline" size="xl" className="w-full justify-center">
-                      <a href="tel:01225123456">
+                      <a href="tel:07951634661">
                         <Phone className="w-5 h-5" />
-                        Call 01225 123 456
+                        Call 07951 634 661
                       </a>
                     </Button>
                     <Button asChild variant="cta" size="xl" className="w-full justify-center">
-                      <a href="mailto:info@bathhomeservice.co.uk">
+                      <a href="mailto:bathhomeservices@gmail.com">
                         <Mail className="w-5 h-5" />
                         Email Us Now
                       </a>

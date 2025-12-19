@@ -45,13 +45,13 @@ const Footer = () => {
           <div>
             <h3 className="font-semibold text-lg mb-4">Get In Touch</h3>
             <div className="flex flex-col gap-3">
-              <a href="tel:01225123456" className="flex items-center gap-3 text-primary-foreground/80 hover:text-primary-foreground transition-colors text-sm">
+              <a href="tel:07951634661" className="flex items-center gap-3 text-primary-foreground/80 hover:text-primary-foreground transition-colors text-sm">
                 <Phone className="w-4 h-4 shrink-0" />
-                <span>01225 123 456</span>
+                <span>07951 634 661</span>
               </a>
-              <a href="mailto:info@bathhomeservice.co.uk" className="flex items-center gap-3 text-primary-foreground/80 hover:text-primary-foreground transition-colors text-sm">
+              <a href="mailto:bathhomeservices@gmail.com" className="flex items-center gap-3 text-primary-foreground/80 hover:text-primary-foreground transition-colors text-sm">
                 <Mail className="w-4 h-4 shrink-0" />
-                <span>info@bathhomeservice.co.uk</span>
+                <span>bathhomeservices@gmail.com</span>
               </a>
               <div className="flex items-start gap-3 text-primary-foreground/80 text-sm">
                 <MapPin className="w-4 h-4 shrink-0 mt-0.5" />
