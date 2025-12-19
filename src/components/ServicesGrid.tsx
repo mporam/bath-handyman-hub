@@ -2,12 +2,12 @@ import {
   Wrench, 
   Paintbrush, 
   Hammer, 
-  Droplets, 
-  Zap, 
   Home,
   DoorOpen,
   TreeDeciduous,
-  Settings
+  Settings,
+  Building,
+  Thermometer
 } from "lucide-react";
 
 const services = [
@@ -18,8 +18,8 @@ const services = [
   },
   {
     icon: Paintbrush,
-    title: "Painting & Decorating",
-    description: "Interior and exterior painting, wallpapering, and decorating to refresh your living spaces.",
+    title: "Painting",
+    description: "Interior and exterior painting to refresh your living spaces with a professional finish.",
   },
   {
     icon: Hammer,
@@ -27,14 +27,14 @@ const services = [
     description: "Shelving, furniture assembly, door hanging, and custom woodwork solutions.",
   },
   {
-    icon: Droplets,
-    title: "Plumbing",
-    description: "Minor plumbing repairs, tap replacements, toilet fixes, and leak repairs.",
+    icon: Building,
+    title: "Garden Room Builds",
+    description: "Custom garden rooms, home offices, and outdoor living spaces built to your specifications.",
   },
   {
-    icon: Zap,
-    title: "Electrical",
-    description: "Light fitting installation, socket replacements, and minor electrical work.",
+    icon: Thermometer,
+    title: "Property Insulation",
+    description: "Professional insulation services to improve energy efficiency and reduce heating costs.",
   },
   {
     icon: Home,

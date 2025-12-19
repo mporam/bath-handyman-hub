@@ -5,15 +5,15 @@ import {
   Wrench, 
   Paintbrush, 
   Hammer, 
-  Droplets, 
-  Zap, 
   Home,
   DoorOpen,
   TreeDeciduous,
   Settings,
   Bath,
   Sofa,
-  Building2
+  Building2,
+  Building,
+  Thermometer
 } from "lucide-react";
 
 const services = [
@@ -25,9 +25,9 @@ const services = [
   },
   {
     icon: Paintbrush,
-    title: "Painting & Decorating",
-    description: "Transform your space with professional painting and decorating services. We take care in preparing surfaces properly for a flawless, long-lasting finish.",
-    examples: ["Interior wall painting", "Exterior painting", "Wallpaper hanging", "Ceiling painting"],
+    title: "Painting",
+    description: "Transform your space with professional painting services. We take care in preparing surfaces properly for a flawless, long-lasting finish.",
+    examples: ["Interior wall painting", "Exterior painting", "Ceiling painting", "Touch-ups and repairs"],
   },
   {
     icon: Hammer,
@@ -36,16 +36,16 @@ const services = [
     examples: ["Shelving installation", "Furniture repairs", "Door hanging", "Skirting board fitting"],
   },
   {
-    icon: Droplets,
-    title: "Plumbing",
-    description: "Minor plumbing repairs and installations to keep your water systems running smoothly. Quick fixes for common household plumbing issues.",
-    examples: ["Tap replacements", "Toilet repairs", "Leak fixing", "Shower fitting"],
+    icon: Building,
+    title: "Garden Room Builds",
+    description: "Custom garden rooms, home offices, and outdoor living spaces. We design and build bespoke structures tailored to your needs and garden space.",
+    examples: ["Home offices", "Garden studios", "Summer houses", "Outdoor living spaces"],
   },
   {
-    icon: Zap,
-    title: "Electrical",
-    description: "Safe and reliable minor electrical work. We handle light fittings, switches, and other small electrical jobs to keep your home bright and functional.",
-    examples: ["Light fitting installation", "Switch and socket replacement", "Dimmer installation", "Extractor fan fitting"],
+    icon: Thermometer,
+    title: "Property Insulation",
+    description: "Professional insulation services to improve your home's energy efficiency. Reduce heating costs and create a more comfortable living environment.",
+    examples: ["Loft insulation", "Wall insulation", "Draught-proofing", "Pipe lagging"],
   },
   {
     icon: Home,

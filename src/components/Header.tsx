@@ -20,13 +20,13 @@ const Header = () => {
       <div className="container mx-auto px-4">
         {/* Top bar with contact info */}
         <div className="hidden md:flex items-center justify-end gap-6 py-2 text-sm border-b border-border">
-          <a href="tel:01225123456" className="flex items-center gap-2 text-muted-foreground hover:text-primary transition-colors">
+          <a href="tel:07951634661" className="flex items-center gap-2 text-muted-foreground hover:text-primary transition-colors">
             <Phone className="w-4 h-4" />
-            <span>01225 123 456</span>
+            <span>07951 634 661</span>
           </a>
-          <a href="mailto:info@bathhomeservice.co.uk" className="flex items-center gap-2 text-muted-foreground hover:text-primary transition-colors">
+          <a href="mailto:bathhomeservices@gmail.com" className="flex items-center gap-2 text-muted-foreground hover:text-primary transition-colors">
             <Mail className="w-4 h-4" />
-            <span>info@bathhomeservice.co.uk</span>
+            <span>bathhomeservices@gmail.com</span>
           </a>
         </div>
 
@@ -56,7 +56,7 @@ const Header = () => {
               </Link>
             ))}
             <Button asChild size="lg">
-              <a href="tel:01225123456">
+              <a href="tel:07951634661">
                 <Phone className="w-4 h-4" />
                 Call Now
               </a>
@@ -90,17 +90,17 @@ const Header = () => {
                 </Link>
               ))}
               <div className="flex flex-col gap-2 pt-4 border-t border-border">
-                <a href="tel:01225123456" className="flex items-center gap-2 text-muted-foreground">
+                <a href="tel:07951634661" className="flex items-center gap-2 text-muted-foreground">
                   <Phone className="w-4 h-4" />
-                  <span>01225 123 456</span>
+                  <span>07951 634 661</span>
                 </a>
-                <a href="mailto:info@bathhomeservice.co.uk" className="flex items-center gap-2 text-muted-foreground">
+                <a href="mailto:bathhomeservices@gmail.com" className="flex items-center gap-2 text-muted-foreground">
                   <Mail className="w-4 h-4" />
-                  <span>info@bathhomeservice.co.uk</span>
+                  <span>bathhomeservices@gmail.com</span>
                 </a>
               </div>
               <Button asChild className="mt-2">
-                <a href="tel:01225123456">
+                <a href="tel:07951634661">
                   <Phone className="w-4 h-4" />
                   Call Now
                 </a>

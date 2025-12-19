@@ -24,13 +24,13 @@ const Hero = () => {
 
           <div className="flex flex-col sm:flex-row gap-4 mb-10 animate-fade-in" style={{ animationDelay: "0.2s" }}>
             <Button asChild variant="heroOutline" size="xl">
-              <a href="tel:01225123456">
+              <a href="tel:07951634661">
                 <Phone className="w-5 h-5" />
-                01225 123 456
+                07951 634 661
               </a>
             </Button>
             <Button asChild variant="cta" size="xl">
-              <a href="mailto:info@bathhomeservice.co.uk">
+              <a href="mailto:bathhomeservices@gmail.com">
                 <Mail className="w-5 h-5" />
                 Email Us
               </a>
