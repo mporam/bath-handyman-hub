@@ -38,7 +38,7 @@ const Header = () => {
             </div>
             <div className="flex flex-col">
               <span className="font-bold text-lg text-primary leading-tight">Bath Home</span>
-              <span className="text-xs text-muted-foreground leading-tight">Service</span>
+              <span className="text-xs text-muted-foreground leading-tight">Services</span>
             </div>
           </Link>
 
