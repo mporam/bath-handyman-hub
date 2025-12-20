@@ -16,7 +16,7 @@ const Footer = () => {
               </div>
               <div className="flex flex-col">
                 <span className="font-bold text-lg leading-tight">Bath Home</span>
-                <span className="text-xs text-primary-foreground/70 leading-tight">Service</span>
+                <span className="text-xs text-primary-foreground/70 leading-tight">Services</span>
               </div>
             </div>
             <p className="text-primary-foreground/80 text-sm leading-relaxed">
@@ -62,7 +62,7 @@ const Footer = () => {
         </div>
 
         <div className="mt-10 pt-6 border-t border-primary-foreground/20 text-center text-sm text-primary-foreground/60">
-          <p>&copy; {currentYear} Bath Home Service. All rights reserved.</p>
+          <p>&copy; {currentYear} Bath Home Services. All rights reserved.</p>
         </div>
       </div>
     </footer>
